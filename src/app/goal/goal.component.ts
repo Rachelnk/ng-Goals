@@ -10,7 +10,8 @@ export class GoalComponent implements OnInit {
     new Goal(1, 'Cook', 'Find chicken mushroom recipe', new Date(2020,3,14)),
     new Goal(2,'Shopping', 'I need to go grocery shopping', new Date(2019,6,9)),
     new Goal(3, 'Study', 'I need to cover todays content', new Date(2021,7,8)),
-    new Goal(4, 'Do laundry', 'I need to clean the sheets and duvet', new Date(2022,5,1))  
+    new Goal(4, 'Do laundry', 'I need to clean the sheets and duvet', new Date(2022,5,1)) , 
+    new Goal(5, 'Clean house', 'I need to clean the windows, doors, floor, counters and skirting', new Date(2022,4,10))
   ];
   addNewGoal(goal:any){
     let goalLength = this.goals.length;
